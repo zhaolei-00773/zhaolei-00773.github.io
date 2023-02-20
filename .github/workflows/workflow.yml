@@ -1,0 +1,14 @@
+name: update-sitemap
+on:
+  push:
+    branches:
+      - master
+jobs:
+  ping-google:
+    if: "contains(github.event.head_commit.message, 'commit')"
+    runs-on: ubuntu-latest
+    steps:
+      - name: wait for update-sitemap
+        run: sleep 3m
+      - name: ping google to update sitemap.xml
+        run: curl http://www.google.com/ping?sitemap=https://zhaolei-00773.github.io/sitemap.xml
