@@ -8,6 +8,7 @@ zulu openjdk
 cloudera官网jdbc说明文档
 学习常用网址 马士兵官网
 谷粒学院
+蓝桥云课
 b站
 腾讯课堂
 mac相关 关于mac相关设置的博客
@@ -22,6 +23,8 @@ flink消费kafka管理offset
 fastjson的NULL属性不显示解决方案
 关于IDEA下run与debug模式运行的差异解释
 SPL程序设计官网
+Hadoop Hive sql语法详解
+hive基础知识
 markdown文档 markdown文档相关1
 markdown文档相关2
 娱乐相关 动漫观看网站
@@ -38,11 +41,16 @@ github
 Font Awesome
 ip地址检测1
 ip地址检测2
+站长工具
 软件相关 JetBrains
 dbeaver
 PicGo
 邮莓生活
-包含apple常用资源 appstoreID的平台</content></entry><entry><title>搭建个人vps实现科学上网</title><url>/tech/build-personal-vps.html</url><categories><category>网络</category></categories><tags><tag>xray</tag><tag>vps</tag><tag>wireguard</tag></tags><content type="html"><![CDATA[本文不再阐述市面上主流技术的各自优势了,需要了解相关信息的请自行查阅
+包含apple常用资源 appstoreID的平台
+liangzl
+JAVA相关 理解 spring 事务传播行为与数据隔离级别
+分布式事务几种实现方式
+分布式事务</content></entry><entry><title>搭建个人vps实现科学上网</title><url>/tech/build-personal-vps.html</url><categories><category>网络</category></categories><tags><tag>xray</tag><tag>vps</tag><tag>wireguard</tag></tags><content type="html"><![CDATA[本文不再阐述市面上主流技术的各自优势了,需要了解相关信息的请自行查阅
 关键词： trojan xray v2ray openvpn wireguard
 😊
 申请个人服务器 可根据下面关键字自行搜索
