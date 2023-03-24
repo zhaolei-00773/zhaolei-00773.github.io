@@ -62,7 +62,9 @@ openvpn/wireguard搭建 相对简单的搭建方式,vps服务器开放udp端口�
 根据个人使用测试wireguard个人用户使用体验较好,不会出现客户端连接超时问题
 但是因为两者都使用udp协议,无法解决Qos限速问题,可能会出现今天速度很快,明天可能打不开网页的情况(好处是gfw的tcp阻断策略对udp无效,所以不存在被墙的情况。)
 客户端选择情况 ios &mdash;&gt; shadowrocket/openvpn/wireguard mac &mdash;&gt; clashx/shadowrocket/openvpn/wireguard win &mdash;&gt; openvpn/wireguard 其他客户端可自行百度。
-]]></content></entry><entry><title>MarkDown Function</title><url>/tech/about-mdtitle.html</url><categories><category>工具相关</category></categories><tags><tag>markdown</tag></tags><content type="html">关于markdown文档的用处本文不做详细展开,请自行百度。本文主要说明使用md文档生成静态网页的一些标题参数的作用,方便小白入门使用。
+2023-03-24补充
+oracle cloudvps申请后需要做的准备工作
+## 执行更新操作 yum update -y ## 修改时区(可选择性略过,建议跟客户端保持一致) tzselect ## 验证是否成功 timedatectl ## 重启vps shutdown -r now ]]></content></entry><entry><title>MarkDown Function</title><url>/tech/about-mdtitle.html</url><categories><category>工具相关</category></categories><tags><tag>markdown</tag></tags><content type="html">关于markdown文档的用处本文不做详细展开,请自行百度。本文主要说明使用md文档生成静态网页的一些标题参数的作用,方便小白入门使用。
 PARAM:title 主要用来显示文章名称。
 PARAM:description 可以理解为对文章的简单描述
 PARAM:keywords 文章的关键词
